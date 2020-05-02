@@ -11,33 +11,36 @@
 
 <body>
              <!-- Header Section-->
-  <div class="wrapper">
-                <h1 id="top" class="name"> Nasra Iid</h1>
+    <div class="wrapper clearfix">
+          <div class="main-header clearfix">
+            <div class="header-nav"> 
+             <h1 id="top" class="name"> Student Name </h1> 
              <nav class="main-nav"> 
                 <ul> 
                   <li><a href="#top">Home</a></li>
-                  <li><a href="#Portfolio">Portfolio</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
                   <li><a href="#contact">Contact</a></li>
                   <li> <a href="#skills">Skills </a></li>
                 </ul>
               </nav>
-       
-            
+         </div>
         
-
-           <div class="profile-intro clearfix"> 
-
-      <img src="img/responsive-layout-profile.png" alt= "profile-img" class= "profile-pic">
-         <p class="intro"> Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web developement at Treehouse and am excited to put all my skills to use! </p>
-            </div>
-            
+          
+          
+          <div class="profile-intro"> 
+            <section class="main-info"> </section>
+            <img src="img/responsive-layout-profile.png" alt= "profile-img" class= "profile-pic">
+            <p class="intro"> Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web developement at Treehouse and am excited to put all my skills to use! </p>
+          </section>
+   </div>  
+  </div>
                <!--Portfolio Section-->
-            
-         <h2>Portfolio </h2>
-         
+           
+      <div class="container-wrapper" id= "portfolio"> 
 
-      <div class="container">  
-        
+          <h2>Portfolio </h2>
+       
+       <div class="container clearfix">  
         
           <div class="marketing col"> 
             <img src="img/portfolio-1.png" alt= "porfolio-img" class="portfolio-pic">
@@ -45,7 +48,7 @@
             <p> This project shows the front page of a marketing website meant for specific business I'm interested in  </p>
           </div>
 
-         <div class ="Search col">
+          <div class ="Search col">
              <img src= "img/portfolio-2.png" alt="search-img" class="portfolio-pic">
             <h3> Search Page </h3>
             <p> This project searches through a specific database to find information that the user is trying to look up.</p>
@@ -57,11 +60,11 @@
             <p> This app compares travel time based on different transportation methods and allows you to pick the best one </p>
           </div> 
           
-        <div class="Map col"> 
+         <div class="Map col"> 
           <img src="img/portfolio-4.png" alt="map-img" class="portfolio-pic">
-          <h3> Map of Favorite Spots </h3>
+          <h3>Map of Favorite Spots</h3>
           <p> This project uses mapping apps to plot points for my favorite sports in the city for a do-it yourself walking tour.</p>
-        </div>
+          </div>
 
           <div class="photo col">
           <img src="img/portfolio-5.png" alt="photo-img" class="portfolio-pic">
@@ -77,46 +80,51 @@
 
         
       </div> 
+    </div>
     
     </div>
         
 
 
-                                    <!-- Footer Section-->
+                 <!-- Footer Section-->
  
-     <div class="contact-container" id= "contact" > 
+    <footer class="contact-container" id= "contact" > 
 
-          <h3 class="footer-contact"> CONTACT </h3>
+          <h3 class="footer-contact "> CONTACT </h3>
+
           <p> If you're interested in chatting or want more information about what I've been working on, i'd love to hear from you.</p>
           <br><p> Phone <a href="#" class = "contact-info">  <strong> +1(111-1234-0000) </strong></a></p> 
          <br/> <p> Email <a href ="#" class="contact-info"> <strong> email@yoursite.com  </strong></a></p>
+           
+    </footer>
 
-      </div>
-
-
+        
       <secondary-footer class="footer2 clearfix"> 
       
-         <h5 class="top"> <a href="top">  Back to Top </a> </h5>
-         <h5 class="name-footer"> <a href="Nasra Iid"> Nasra Iid </a> </h5>
+         <h5 class="top1"> <a href="#top">  Back to Top </a> </h5>
+         <h5 class="name-footer"> <a href="Student name"> Student name </a> </h5>
       </secondary-footer>
 
-         <footer class="main-footer clearfix">
+         <div class="main-footer clearfix">
 
+          <div class="footer-wrapper"> 
+            <h5 class="student-name"> Student name</h5>
+          </div>
           
+             <nav class=nav-footer> </nav>
          <ul>
-          <li<a href class="#Nasra Iid"> Nasra Iid </a> </h6>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Contact">Contact</a></li>
+          
+            <li><a href="#top">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
             
           
            </ul>
-          
-            
-           
 
-            </footer>
- 
+          </nav>
+        </div>
+
+          </div>
 
  </body>
 
