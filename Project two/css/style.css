@@ -12,7 +12,6 @@
   display: table;
 }
 
-
 body {
    
   font-family: 'Open Sans', sans-serif;
@@ -67,6 +66,10 @@ a:hover{
     
    }
 
+   h1,h2,h3{
+    font-family: 'Satisfy', cursive;
+   }
+
    /* -----------------------Images--------------- */
      .profile-pic {
        width: 65%;
@@ -80,9 +83,7 @@ a:hover{
      }
 
     
-    h2, h1,h3 {
-      font-family: 'Satisfy', cursive; ;
-    }
+    
  /* --------------------Container ---------------- */
  
 
@@ -233,6 +234,7 @@ a:hover{
     .main-footer{
       border-top: solid rgb(199, 198, 198) 1px;
     }
+
     .main-footer {   /* hides the other menue bars */
       display: none;  
       }
@@ -258,8 +260,7 @@ a:hover{
   .main-nav li {
   list-style: none; 
   background-color: rgb(245, 243, 245);
-  margin-left: 3em;
-  margin-right:3em;
+  
   text-align:center;
   
 }
@@ -270,9 +271,7 @@ a:hover{
    font-weight: bold;
    color: rgb(196, 63, 14);
   
-  padding-top:50%;
-  padding-bottom: 40%;
- 
+  
   text-align: center;
 }
 
@@ -281,7 +280,7 @@ a:hover{
 /*--- Header intro ------ */
 
 
-}
+
 .intro {
   
   font-size: 20px;
@@ -397,14 +396,14 @@ a:hover{
        display:none;
      }
 
+   }
     
-     
     
 
   /*------------------------------------------------ */
     /*@media (min-width: 1024px) */
    /*------------------------------------------------ */
-  @media(min-width: 1024px){
+  @media(min-width: 1024px) {
     .container  {
       display:grid;
       grid-template-columns:repeat(3, 1.9fr);
@@ -420,7 +419,7 @@ a:hover{
 
  .main-nav li {
    margin-top:0.75em;
-  margin-right:2em;
+   margin-left:6em;
    
 
  }
