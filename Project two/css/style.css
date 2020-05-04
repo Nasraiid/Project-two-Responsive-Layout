@@ -42,8 +42,10 @@ a:hover{
    /* --------------------Header Menu--------------- */
  .name {
    
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left:2em;
+  font-size: 20px;
     
   }
   p{
@@ -57,17 +59,18 @@ a:hover{
      color:rgb(28, 26, 26);
   }
   
-  
   .intro{
    
-   padding-bottom:5%;
-    font-size: 16px;
-    margin:2em 1em 2em 1em; 
-    
-   }
+    padding-bottom:5%;
+     font-size: 16px;
+     margin:2em 1em 2em 1em; 
+     
+    }
+  
 
    h1,h2,h3{
     font-family: 'Satisfy', cursive;
+    
    }
 
    /* -----------------------Images--------------- */
@@ -190,8 +193,7 @@ a:hover{
     color: rgb(59, 56, 56);
   }
       
-
-   .footer2  {
+  .footer2  {
     background-color: rgb(245, 243, 245);
       list-style: none;
       display:flex;
@@ -199,28 +201,26 @@ a:hover{
       border-top:solid  rgb(199, 198, 198)1px;
       
     }
-    h5 {
+    .name-footer{
       
       
       padding-bottom:10%;
-      padding-top:10%;
-      font-size: 12px;  
+      padding-top:4%;
+      font-size: 2px;
+      float:right; 
+      font-size: 18px; 
+      float:left;
+      color: rgb(190, 190, 193);
+
     }
 
     
     .top1 {
       
-      left: 90%;
-      
+        padding-top:5%;
+       float:right;
       text-transform: uppercase;
       
-    }
-
-    .name-footer p {
-      right: 90%;
-     
-      text-decoration: none;
-    
     }
     
 
@@ -239,6 +239,7 @@ a:hover{
       display: none;  
       }
 
+   
       
   
   
@@ -251,16 +252,18 @@ a:hover{
        
   .main-nav ul{
     
-    margin-top:5%;
-    display: flex; 
    
+    display: flex;
+    
+    margin-left:10em;
+    margin-right: 2em;
   }
 
 
   .main-nav li {
   list-style: none; 
   background-color: rgb(245, 243, 245);
-  
+  margin-left:1em;
   text-align:center;
   
 }
@@ -270,10 +273,11 @@ a:hover{
   text-decoration: none; 
    font-weight: bold;
    color: rgb(196, 63, 14);
-  
+  font-size: 30px;
   
   text-align: center;
 }
+
 
  
 
@@ -281,43 +285,40 @@ a:hover{
 
 
 
-.intro {
+  .main-info  p {
+   
   
-  font-size: 20px;
-  margin-right: 50%;
-  margin-left: 2em;
-  margin-top:1em;
-  text-align: left;
+    width: 55%;
+    height: auto;
+    font-size: 22px;
+    text-align: left;
+  }
  
-}
-.profile-intro {
-  margin-bottom: 15%;
-  
-}
+
+
   
 
     /*--- images ------ */
 
     
-    .profile-pic{
-      position: absolute;
-      
-      width: 40%;
-      bottom:-2em;
-      right:2em;
-       top:-2em;
-      
-      
+    .profile-pic {
+      width: 33%;
+      height: auto;
+      float: right;
+      margin-top: 1rem;
+      margin-right: 2em;
+      margin-left: 0rem;
     }
+  
+    
+
     .portfolio-pic{
       width:96%;
       margin-top:10%;
       margin-bottom:10%;
     }
    
-    .profile-intro{
-      position: relative;
-    }
+   
      
      
       
@@ -369,11 +370,11 @@ a:hover{
       }
       
       .footer-wrapper {
-         float: left;
+         float: right;
          width:50%;
          margin-left:-5%;
          margin-top: 16px;
-         margin-bottom: 0.75em;
+        
          display:flex;
          
        
@@ -383,6 +384,7 @@ a:hover{
       .student-name {
           font-size: 18px;
           color: rgb(55, 49, 49);
+
       }
       .contact-container {
         margin-left:25%;
@@ -395,6 +397,16 @@ a:hover{
      .footer2 {
        display:none;
      }
+
+     .student-name2{
+      
+      
+     
+      padding-top:8%;
+      font-size: 12px;
+      float:right; 
+      font-size: 18px; 
+    }
 
    }
     
@@ -414,18 +426,22 @@ a:hover{
  .header-nav{
    display:flex;
    justify-content: space-between;
+   padding-top: 2em;
  }
-
+ .main-nav ul{
+   
+   margin-left:20%;
+   margin-right:2em;
+ }
 
  .main-nav li {
    margin-top:0.75em;
-   margin-left:6em;
+   margin-left:2em;
    
-
  }
 
    .main-nav li a{
-     font-size:18px;
+     font-size:30px;
      color: rgb(14, 196, 117);
    }
   
@@ -438,23 +454,29 @@ a:hover{
   color: rgb(59, 56, 56);
 }
 
-.profile-pic{
-  position: absolute;
-  left:52%;
-  width: 40%;
-  bottom:-12em;
-  right:2em;
-  top:-4em;
-  
-  
-  
-  
-}
-  .profile-intro{
-    position: relative;
-}
 
+
+.profile-pic{
+ 
+     
+      float: right;
+      height: auto;
+      margin-right: 2em;
+      margin-left: 6em;
+      line-height: 1.5;
   
+  
+}
+  
+.main-info  p {
+   
+  font-size: 30px;
+  width: 40%;
+  height: auto;
+  
+  text-align: left;
+  margin-left:4em;
+}
 
 /*---------------Footer -------------- */
   .main-footer {
@@ -479,4 +501,16 @@ a:hover{
     
   }
    
+
+  .student-name2{
+      
+      
+    padding-bottom:10%;
+    padding-top:4%;
+    font-size: 12px;
+    float:right; 
+    font-size: 18px; 
+  }
+
 }
+ 
